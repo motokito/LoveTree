@@ -1,7 +1,3 @@
-/*
- * http://love.hackerzhou.me
- */
-
 // variables
 var $win = $(window);
 var clientWidth = $win.width();
@@ -52,6 +48,6 @@ function timeElapse(date){
 	}
 	seconds = Math.floor(seconds % 60);
 	seconds = (seconds + "").replace(/\.\d*/, "");
-	var result = "第 <span class=\"digit\">" + days + "</span> 天 <span class=\"digit\">" + hours + "</span> 小时 <span class=\"digit\">" + minutes + "</span> 分钟 <span class=\"digit\">" + seconds + "</span> 秒";
+	var result = "được: <span class=\"digit\">" + days + "</span> ngày <span class=\"digit\">" + hours + "</span> giờ <span class=\"digit\">" + minutes + "</span> phút <span class=\"digit\">" + seconds + "</span> s";
 	$("#clock").html(result);
 }
