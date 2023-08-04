@@ -11,6 +11,6 @@ var config = {
         "❤️ Mãi mãi yêu thương em và con ❤️",
         "❤️ Nghĩa thúi của em ❤️",
     ],
-    date: "2022-01-19T00:00:00",
+    date: "2022-12-01T00:00:00",
     names: ["Ngọc Thơm", "Nghĩa Thúi"]
 }
